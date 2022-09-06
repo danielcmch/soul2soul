@@ -1,0 +1,100 @@
+
+.administrador {
+    color: #6c8cac;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.artistas {
+    color: #6c8cac;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.productos {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.reportes {
+    color: #6c8cac;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.ventas {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.perfiles {
+    color: #6c8cac;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #BEC7D8;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+
+  .menos{
+    margin-bottom: -170px;
+  }
+
+  .mas{
+    margin-top: 90px;
+  }
+
+  .artistas1 {
+    color: rgb(68, 65, 65);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 80px;
+    font-weight: border;
+    text-align: center;
+}
