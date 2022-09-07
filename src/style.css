@@ -179,7 +179,7 @@ a:hover {
 
 .div1 {
     background-color: #e9dcdc;
-
+    margin-right: 2px;
 }
 
 .div2 {
@@ -231,21 +231,43 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bolder;
+    background-color: #e9dcdc;
 }
 
 .catMarg {
     margin-top: px;
-    margin-left: 10px;
+    margin-left: 5px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.catCont {
+    margin-top: px;
+    margin-left: 5px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:normal;
 }
 
 
-
 .list-group-item {
-    background-color: #e9dcdc !important;
+    background-color: white !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 100;
     text-align: inherit;
     margin-left: 10px;
 
+}
+
+.divCat{
+    background-color: white;
+    margin-right: 12px;
+}
+.sepCat {
+    background-color: #e9dcdc;
+    margin-right: 2px;
+    height: 10px;
 }
