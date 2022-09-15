@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "react-bootstrap/Nav";
 import Logo from "./Logo.png";
 
-class Adminprincipal extends React.Component {
+class Artistasopciones extends React.Component {
 
     render() {
         return (
@@ -16,7 +16,7 @@ class Adminprincipal extends React.Component {
                         <div class="collapse navbar-collapse" id="mainNav">
                             <div class="nav ms-auto text-dark">
                                 <a className="administrador">
-                                    ¡Bienvenido, Administrador!
+                                    Menú Artistas
                                 </a>
                             </div>
                         </div>
@@ -31,28 +31,23 @@ class Adminprincipal extends React.Component {
                 </div>
                         <div className="Auth-form-content">
                             <div className="form-group mt-3" style={{ textAlign: "center" }}>
-                                <a className="artistas" href="/OpcionesA">
-                                    Artistas
+                                <a className="artistas" href="/AdminA">
+                                    Ver
                                 </a>
                             </div>
                             <div className="form-group mt-3" style={{ textAlign: "center" }}>
-                                <a className="productos" href="/OpcionesP">
-                                    Productos
+                                <a className="productos" href="/FormularioA">
+                                    Añadir
                                 </a>
                             </div>
                             <div className="form-group mt-3" style={{ textAlign: "center" }}>
-                                <a className="reportes" href="/AdminR">
-                                    Reportes
+                                <a className="reportes" href="/FormularioA">
+                                    Editar
                                 </a>
                             </div>
                             <div className="form-group mt-3" style={{ textAlign: "center" }}>
                                 <a className="ventas" href="/AdminV">
-                                    Ventas
-                                </a>
-                            </div>
-                            <div className="form-group mt-3" style={{ textAlign: "center" }}>
-                                <a className="perfiles" href="/AdminPe">
-                                    Perfiles
+                                    Eliminar
                                 </a>
                             </div>
                         </div>
@@ -63,4 +58,4 @@ class Adminprincipal extends React.Component {
 
         );
     }
-} export default Adminprincipal;
+} export default Artistasopciones;

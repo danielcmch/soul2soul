@@ -36,7 +36,7 @@ class Iniciosesion extends React.Component {
                 />
               </div>
               <div className="d-grid gap-2 mt-3">
-                <button onClick={"/Inicio"} type="submit" className="btn btn-primary">
+                <button onClick={'/AdminP'} type="submit" className="btn btn-primary">
                   Ingresar
                 </button>
               </div>

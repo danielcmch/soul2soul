@@ -32,7 +32,7 @@ function Formularioartista() {
                     <div class="collapse navbar-collapse" id="mainNav">
                         <div class="nav ms-auto text-dark">
                             <a className="administrador">
-                                Añadir Artista
+                                Artista
                             </a>
                         </div>
                     </div>
